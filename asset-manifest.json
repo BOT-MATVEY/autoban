@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/bot-matvey.github.io/autoban-react-app/static/css/main.e98d9fe5.css",
+    "main.js": "/bot-matvey.github.io/autoban-react-app/static/js/main.ba577a1a.js",
+    "static/js/787.4dfaa428.chunk.js": "/bot-matvey.github.io/autoban-react-app/static/js/787.4dfaa428.chunk.js",
+    "static/media/truck-in-nature.png": "/bot-matvey.github.io/autoban-react-app/static/media/truck-in-nature.bb101ce073d7c42b1cb0.png",
+    "static/media/map-bg.png": "/bot-matvey.github.io/autoban-react-app/static/media/map-bg.977bc939dcdd7ae0cf6a.png",
+    "index.html": "/bot-matvey.github.io/autoban-react-app/index.html",
+    "static/media/flag.svg": "/bot-matvey.github.io/autoban-react-app/static/media/flag.7ad392221b60a1f7013b.svg",
+    "static/media/list-style.svg": "/bot-matvey.github.io/autoban-react-app/static/media/list-style.880c40c5c7ecb5754de6.svg",
+    "main.e98d9fe5.css.map": "/bot-matvey.github.io/autoban-react-app/static/css/main.e98d9fe5.css.map",
+    "main.ba577a1a.js.map": "/bot-matvey.github.io/autoban-react-app/static/js/main.ba577a1a.js.map",
+    "787.4dfaa428.chunk.js.map": "/bot-matvey.github.io/autoban-react-app/static/js/787.4dfaa428.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e98d9fe5.css",
+    "static/js/main.ba577a1a.js"
+  ]
+}
