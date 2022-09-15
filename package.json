@@ -1,7 +1,7 @@
 {
   "name": "autoban-react-app",
   "version": "0.1.0",
-  "homepage": "bot-matvey.github.io/autoban",
+  "homepage": "https://bot-matvey.github.io/autoban/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
