@@ -8,7 +8,7 @@ function Header({ toggleMenu, toggleModelCall }) {
         <div className="content">
           <img
             className="header__autoban-logo"
-            src="../images/autoban-logo.svg"
+            src="./images/autoban-logo.svg"
             alt="логотип компании Автобан"
           />
 
@@ -18,7 +18,7 @@ function Header({ toggleMenu, toggleModelCall }) {
             <div className="header__search-block nav-text">
               <img
                 className="serach-icon"
-                src="../images/nav-icons/search-icon.svg"
+                src="./images/nav-icons/search-icon.svg"
                 alt="кнопка поиска"
               />
               <input
@@ -32,7 +32,7 @@ function Header({ toggleMenu, toggleModelCall }) {
               <div className="header__social_media_icon centered-element">
                 <a>
                   <img
-                    src="../images/nav-icons/viber.svg"
+                    src="./images/nav-icons/viber.svg"
                     alt="логотип Вайбер"
                   />
                 </a>
@@ -41,7 +41,7 @@ function Header({ toggleMenu, toggleModelCall }) {
               <div className="header__social_media_icon  centered-element">
                 <a href={"https://wa.me/73952788604"}>
                   <img
-                    src="../images/nav-icons/whats-app.svg"
+                    src="./images/nav-icons/whats-app.svg"
                     alt="логотип whatsApp"
                   />
                 </a>
