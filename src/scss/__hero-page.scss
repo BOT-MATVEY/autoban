@@ -1,0 +1,218 @@
+@import "./_main";
+@media (min-width: 2100px) {
+  .hero-page__bg-image {
+    // background-position: -400px -300px;
+    background-position: -300px 75%;
+  }
+
+  .hero-page__shacman-logo-container {
+    transform: translateX(24%) !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  .hero-page__bg-image {
+    // background-position: -400px -300px;
+    background-position: -100px 75%;
+  }
+
+  .hero-page__shacman-logo-container {
+    transform: translateX(18%) !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .hero-page__bg-image {
+    // background-position: -400px 75% !important;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hero-page {
+    .hero-page-h1 {
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 39px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .usp {
+      columns: 1;
+    }
+    .hero-page__bg-image {
+      background-position: 55% 75%;
+    }
+  }
+}
+
+@media (max-width: 799px) {
+  .hero-page {
+    .content {
+      flex-direction: column-reverse;
+
+      .hero-page__info {
+        width: 100%;
+        max-height: 410px;
+        padding-top: 60px;
+
+        justify-content: center;
+
+        flex-grow: 1;
+
+        box-sizing: border-box;
+
+        .hero-page-h1 {
+          max-width: 500px;
+          margin-top: 0px;
+          margin-bottom: 16px;
+        }
+
+        .usp {
+          margin-top: 0;
+          margin-bottom: 35.5px;
+          li {
+            margin-bottom: 8px;
+          }
+        }
+
+        .horizontal-btns {
+          margin: 0;
+        }
+        &__slider-btns {
+          display: none;
+        }
+      }
+    }
+    .hero-page__bg-image {
+      position: relative;
+      height: 260px;
+      flex-shrink: 0;
+
+      background-position: 99% 75%;
+    }
+    &__shacman-logo-container {
+      position: absolute;
+      flex-shrink: 0;
+      width: 210px;
+
+      background-position: 50% 99% !important;
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden !important;
+  }
+}
+
+.hero-page {
+  display: flex;
+  justify-content: center;
+  background-color: $black-bg;
+  width: 100%;
+  height: 750px;
+  @include general-padding();
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  .content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    .hero-page__shacman-logo-container {
+      flex-grow: 1;
+      z-index: 1;
+      height: 100%;
+
+      background-position: 50% 95%;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      transform: translateX(4%); // отцентровать относительно грузовика
+    }
+  }
+}
+
+.hero-page__info {
+  width: 47%;
+  height: 100%;
+  background-color: $black-bg;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 20px 0 1px; //Чтобы картинка не вылезала на 1 px слева
+  box-sizing: border-box;
+  transform: translateX(-1px);
+
+  .horizontal-btns {
+    margin-bottom: 64px;
+    .btn {
+      width: 131px;
+      height: 47px;
+    }
+  }
+
+  .hero-page-h1 {
+    margin-top: 179px;
+    width: 100%;
+  }
+}
+
+.usp {
+  columns: 2;
+  list-style: url("../../public/images/nav-icons/list-style.svg");
+
+  padding-left: 17px;
+  color: white;
+  margin-bottom: 64px;
+
+  li {
+    margin-bottom: 15px;
+  }
+  li span {
+    left: 100px;
+  }
+}
+
+.slider-btn {
+  width: 48px;
+  height: 48px;
+
+  border: 1px solid white;
+  opacity: 0.7;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.hero-page__bg-image {
+  position: absolute;
+  z-index: 0;
+
+  height: 100%;
+  width: 100vw;
+
+  flex-grow: 1;
+
+  background-image: url("../../public/images/truck-in-nature.png");
+  background-position: 75% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__slide {
+    width: inherit;
+    flex-shrink: 0;
+  }
+}
