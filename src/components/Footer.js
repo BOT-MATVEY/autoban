@@ -8,7 +8,7 @@ function Footer({ id, toggleModelCall }) {
           <div className="content">
             <img
               className="header__autoban-logo"
-              src="/images/autoban-logo.svg"
+              src="./images/autoban-logo.svg"
               alt="логотип компании Автобан"
             />
 
@@ -17,11 +17,14 @@ function Footer({ id, toggleModelCall }) {
             <nav className="header__info">
               <div className="header__info__social-media">
                 <div className="header__social_media_icon centered-element">
-                  <img src="/images/nav-icons/viber.svg" alt="логотип Вайбер" />
+                  <img
+                    src="./images/nav-icons/viber.svg"
+                    alt="логотип Вайбер"
+                  />
                 </div>
                 <div className="header__social_media_icon  centered-element">
                   <img
-                    src="/images/nav-icons/whats-app.svg"
+                    src="./images/nav-icons/whats-app.svg"
                     alt="логотип whatsApp"
                   />
                 </div>

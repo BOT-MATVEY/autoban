@@ -16,12 +16,15 @@ function Menu({ toggleMenu }) {
 
               <div class="header__info__social-media">
                 <div class="header__social_media_icon centered-element">
-                  <img src="/images/nav-icons/viber.svg" alt="логотип Вайбер" />
+                  <img
+                    src="./images/nav-icons/viber.svg"
+                    alt="логотип Вайбер"
+                  />
                 </div>
 
                 <div class="header__social_media_icon  centered-element">
                   <img
-                    src="/images/nav-icons/whats-app.svg"
+                    src="./images/nav-icons/whats-app.svg"
                     alt="логотип whatsApp"
                   />
                 </div>
