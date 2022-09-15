@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/autoban/static/css/main.ccf471b8.css",
-    "main.js": "/autoban/static/js/main.724df227.js",
+    "main.js": "/autoban/static/js/main.8a2a3af7.js",
     "static/js/787.4dfaa428.chunk.js": "/autoban/static/js/787.4dfaa428.chunk.js",
     "static/media/truck-in-nature.png": "/autoban/static/media/truck-in-nature.bb101ce073d7c42b1cb0.png",
     "static/media/map-bg.png": "/autoban/static/media/map-bg.977bc939dcdd7ae0cf6a.png",
@@ -9,11 +9,11 @@
     "static/media/flag.svg": "/autoban/static/media/flag.7ad392221b60a1f7013b.svg",
     "static/media/list-style.svg": "/autoban/static/media/list-style.880c40c5c7ecb5754de6.svg",
     "main.ccf471b8.css.map": "/autoban/static/css/main.ccf471b8.css.map",
-    "main.724df227.js.map": "/autoban/static/js/main.724df227.js.map",
+    "main.8a2a3af7.js.map": "/autoban/static/js/main.8a2a3af7.js.map",
     "787.4dfaa428.chunk.js.map": "/autoban/static/js/787.4dfaa428.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccf471b8.css",
-    "static/js/main.724df227.js"
+    "static/js/main.8a2a3af7.js"
   ]
 }
